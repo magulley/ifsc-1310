@@ -134,6 +134,68 @@ article.post figure {
 }
 
 
+time.post-date,
+figcaption,
+.post-meta
+{
+  text-transform:uppercase;
+  color:#c0c0c0;
+}
+.post figure img{
+    border:1px solid #c0c0c0;
+  padding:2px;
+  border-radius:5px;
+}
+
+article.post a{
+  color:#3b638b;
+}
+
+article.post a:hover{
+  text-decoration:none;
+}
+
+aside[role="complementary"]{
+  background-color:#172635;
+  color:#ffffff;
+  padding:1.9rem;
+}
+
+/* Attribute Selector Example
+a[target="_blank"]{
+  color:red;
+}
+
+*/
+
+aside .container{
+  display:flex;
+  gap:40px;
+  flex-direction:row;
+}
+
+aside .widget a:last-of-type{
+  display:block;
+  text-align:right;
+  padding-top:20px;
+  color:white;
+}
+
+aside .widget footer{
+  display:none;
+}
+
+#colophon {
+  background-color: #3b638b;
+}
+
+#colophon h6 {
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
 
 
 
