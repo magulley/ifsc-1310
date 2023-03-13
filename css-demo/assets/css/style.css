@@ -59,6 +59,7 @@ border-collapse:collapse;
 }
 table caption{
   font-weight:bold;
+  color:#753A28;
   margin:20px;
 }
 table tr:nth-child(even){
@@ -89,14 +90,10 @@ ol{
 
 }
 
-li{
-
-}
 ul ul{
   list-style-type:square;
 }
 
-dl{}
 dt{
   font-weight:bold;
 }
@@ -175,9 +172,6 @@ header.primary nav ul li a:active {
     background-color: rgba(0,0,0,0.8);
 }
 
-#intro{
-
-}
 
 #intro h2{
 color:#f7b29e;
@@ -227,26 +221,33 @@ figcaption,
 }
 
 article.post a{
-  color:#3b638b;
+  color:#8b3b3bdf;
 }
 
 article.post a:hover{
   text-decoration:none;
 }
-
-
-
-
-
-
+blockquote{
+  background-color:#5a4139;
+  color:#ffffff;
+  padding: 20px;
+  margin:0;
+  text-align:center;
+}
 
 #practice h2{
   color:#f7b29e;
 border-bottom:1px dotted #753a28;
 }
 
+#practice h3{
+  color:#f7b29e;
+  border-bottom:1px dotted #753a28;
+}
+
+
 aside[role="complementary"]{
-  background-color:#172635;
+  background-color:#340f04;
   color:#ffffff;
   padding:1.9rem;
 }
@@ -276,7 +277,7 @@ aside .widget footer{
 }
 
 #colophon {
-  background-color: #3b638b;
+  background-color:#5a4139;
 }
 
 #colophon h6 {
